@@ -1,14 +1,8 @@
 #include<iostream>
 #include<vector>
+#include "functions.h"
 
 using namespace std;
-
-void printArray(vector<int> arr){
-  for(int a: arr)
-    cout<<a<<endl;
-  cout<<endl;
-}
-
 
 int binarySearch(vector<int> arr, int item, int size, int start){
   while(start <= size){
