@@ -14,3 +14,12 @@ void swap(int &a, int &b){
   a = b;
   b = temp;
 }
+
+void bubbleSort(vector<int> &arr, int size){
+  for(int i = 0 ; i < size ; i++ ){
+    for(int j = 1 ; i < size ; j++){
+      if (arr[j] < arr[j+1])
+        swap(arr[j], arr[j+1]);
+    }
+  }
+}
