@@ -8,3 +8,9 @@ void printArray(vector<int> arr){
     cout<<a<<"  ";
   cout<<endl;
 }
+
+void swap(int &a, int &b){
+  int temp = a;
+  a = b;
+  b = temp;
+}
